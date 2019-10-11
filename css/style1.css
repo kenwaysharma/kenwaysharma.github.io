@@ -176,7 +176,7 @@
 	flex-direction: row;
 	justify-content: right;
 	align-items: center;
-	padding: 40px;
+	padding: 30px;
 }
 
 
@@ -218,7 +218,11 @@
 .display_inblock li{
 	display: block;
 }
+
 }
+
+
+
 @media screen and (max-width:500px){
 .display_inblock li{
 	display: block;
@@ -262,10 +266,11 @@
 }
 .widget *{
 	margin: 20px ;
-
-
 }
 }
+
+
+
 @media screen and (max-width:320px){
 #container{
 	width: 320px;	 
