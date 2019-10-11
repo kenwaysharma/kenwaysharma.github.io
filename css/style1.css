@@ -139,7 +139,7 @@
 	align-items: center;
 	justify-content: center;
 	width: 20%;
-	height: 100px;
+	height: 100%;
 	float: left;
 }	
 .footer_grid2{
@@ -148,7 +148,7 @@
 	align-items: center;
 
 	width: 80%;
-	height: 100px;
+	height: 100%;
 	float: left;
 	background-color: none;
 }
@@ -156,7 +156,7 @@
 
 
 .footer_grid2 h6{
-	padding-right: 40px;
+	padding: 40px;
 	color: white;
 }
 .footer_cls ul{
@@ -176,8 +176,7 @@
 	flex-direction: row;
 	justify-content: right;
 	align-items: center;
-	margin-left: 25px;
-	
+	padding: 40px;
 }
 
 
@@ -261,8 +260,13 @@
 .links{
 	margin-left: 0px;
 }
+.widget *{
+	margin: 20px ;
+
+
 }
-@media screen and (max-width:360px){
+}
+@media screen and (max-width:320px){
 #container{
 	width: 320px;	 
 }
