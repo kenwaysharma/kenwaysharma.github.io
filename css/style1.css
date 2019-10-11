@@ -206,18 +206,6 @@
 }
 
 
-@media screen and (max-width:959px){
-	
-	#container{
-	width: 100%;
-}
-#left-column{
-	width: 72%;	
-}
-#right-column{
-	width: 28%;
-}
-}
 @media screen and (max-width:640px){
 	#container{
 	width: 100%;
@@ -227,6 +215,9 @@
 }
 #right-column{
 	width: 100%;	 
+}
+.display_inblock li{
+	display: block;
 }
 }
 @media screen and (max-width:500px){
@@ -244,7 +235,7 @@
 }
 
 }
-@media screen and (max-width:320px){
+@media screen and (max-width:360px){
 #container{
 	width: 320px;	 
 }
