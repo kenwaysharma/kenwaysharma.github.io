@@ -44,6 +44,26 @@
 
 
 
+/*WIGDETS*/
+.widget *{
+	margin: 30px;
+
+}
+
+.w1{
+	border:2px solid;
+}
+.w2{
+	border:2px solid;
+}
+.w3{
+	border:2px solid;
+}
+
+
+
+
+
 
 
 
