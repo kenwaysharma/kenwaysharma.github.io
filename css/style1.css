@@ -128,7 +128,7 @@
 	display: inline-block;
 	background-color: black;
 	width: 100%;
-	height: 110px;	
+	height: 100%;	
 	border: 1000px 0px 0px 0px solid;
 	
 }
@@ -141,6 +141,9 @@
 	float: left;
 }	
 .footer_grid2{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 	width: 80%;
 	height: 100px;
 	float: left;
@@ -149,8 +152,8 @@
 
 
 
-.footer_grid2 small{
-	font-size: 35px;
+.footer_grid2 h6{
+	padding-right: 40px;
 	color: white;
 }
 .footer_cls ul{
