@@ -4,6 +4,7 @@
 	<title>Web Layout v1</title>
 	<link type="text/css" rel="stylesheet" href="css/style1.css"/>
 	<meta name="viewport" content="width=device-width, intial=scale=1.0"/>
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Cabin|Fjalla+One&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -19,9 +20,9 @@
 				<div class="menu_list">
 					<nav>
 					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="About.html">About</a></li>
-						<li><a href="Contact us.html">Contact</a></li>
+						<li><a href="index.html"><button id="demo1" class="button index" onclick="openHTML()">Home</button></a></li>
+						<li><a href="About.html"><button id="demo2" class="button about" onclick="openABOUT()">About</button></a></li>
+						<li><a href="Contact us.html"><button id="demo3" class="button contact" onclick="openCONTACT()">Contact</button></a></li>
 					</ul>
 					</nav>
 				</div>
@@ -111,7 +112,24 @@
 		</section>
 	</footer>
 	</div>
-	
+	<script>
+	function openHTML() {
+    document.getElementById("demo1").style.color = "red";
+    document.getElementById("demo2").style.color = "white";
+    document.getElementById("demo3").style.color =	"white";
+	}
+
+	function openABOUT() {
+    document.getElementById("demo1").style.color = "white";
+    document.getElementById("demo2").style.color = "red";
+    document.getElementById("demo3").style.color =	"white";
+	}
+	function openCONTACT() {
+    document.getElementById("demo1").style.color = "white";
+    document.getElementById("demo2").style.color = "white";
+    document.getElementById("demo3").style.color =	"red";
+	}
+	</script>
 
 </body>
 </html>

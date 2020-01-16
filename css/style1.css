@@ -43,9 +43,28 @@
 
 	
 }
+.button{
+	padding: 10px 20px 10px 20px;
+	border: none;
+  	background-color: #4d4d4d;
+  	color: white;
+	
+	
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	cursor: pointer;
+}
+
+.button:hover{
+	transition: all 0.5s;
+	background-color: #bfbfbf;
+}
 
 
-
+#demo1{
+	color: red;
+}
 /*----------------------------------------------------------------------------------------------------WIGDETS*/
 .widget *{
 	margin: 30px;
@@ -107,13 +126,17 @@
 }
 
 .menu_list {
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
 	width: 70%;
 	text-align: right;
-	margin-right: 25px;
+	margin: 25px 10px 25px 10px;
 	font-size: 20px;
 	text-decoration: none;	
 	
 }
+
+
 .display_inblock li{
 	color: white;
 	padding-left: 50px;
@@ -172,6 +195,7 @@
 }
 
 .links{
+
 	display: flex;
 	flex-direction: row;
 	justify-content: right;
