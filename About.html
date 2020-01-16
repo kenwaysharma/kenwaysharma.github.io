@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web Layout v1</title>
+	<link type="text/css" rel="stylesheet" href="css/style2.css"/>
+	<meta name="viewport" content="width=device-width, initial=scale=1.0"/>
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cabin|Fjalla+One&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="display_inblock">
+	<header>
+			<div class="header_menu">
+				<div class="logo">
+
+				<img src="download.jpg" alt="Logo">
+				<h3>THE WITCHER</h3>
+				</div>
+			
+				<div class="menu_list">
+					<nav>
+					<ul>
+						<li><a href="index.html"><button id="demo1" class="button index" onclick="openHTML()">Home</button></a></li>
+						<li><a href="About.html"><button id="demo2" class="button about" onclick="openABOUT()">About</button></a></li>
+						<li><a href="Contact us.html"><button id="demo3" class="button contact" onclick="openCONTACT()">Contact</button></a></li>
+					</ul>
+					</nav>
+				</div>
+			
+			</div>
+	</header>
+	</div>
+	
+	<div id="container">
+		<section id="Row1">
+			"SOMETHING>1"
+		</section>
+
+		<section id="Ro">
+			
+			<div class="widget">
+				
+				
+
+
+			</div>
+			
+		</section>
+	</div>
+
+	<div class="footer_cls">
+	<footer>
+		<section class="footer_grid1">
+		<ul>
+			<div class="links">
+			<li><a href="https://www.instagram.com"><img src="insta2.png" alt="instagram" ></a></li>
+			<li><a href="https://www.instagram.com"><img src="insta2.png" alt="instagram" ></a></li>
+			</div>
+		</ul>
+		</section>
+
+		<section class="footer_grid2">
+			<div>
+				<h6>Copyright 2019, THE WITCHER Corporation</h6>
+			</div>
+			
+		</section>
+	</footer>
+	</div>
+	<script>
+	function openHTML() {
+    document.getElementById("demo1").style.color = "red";
+    document.getElementById("demo2").style.color = "white";
+    document.getElementById("demo3").style.color =	"white";
+	}
+
+	function openABOUT() {
+    document.getElementById("demo1").style.color = "white";
+    document.getElementById("demo2").style.color = "red";
+    document.getElementById("demo3").style.color =	"white";
+	}
+	function openCONTACT() {
+    document.getElementById("demo1").style.color = "white";
+    document.getElementById("demo2").style.color = "white";
+    document.getElementById("demo3").style.color =	"red";
+	}
+	</script>
+
+</body>
+</html>
