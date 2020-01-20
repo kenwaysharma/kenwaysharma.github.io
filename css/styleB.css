@@ -3,174 +3,95 @@
 	margin:0;
 }
 
-body{
-	background-color: black;
-}
-
 #container{
 	width: 1500px;
 	margin: 0px auto;
 	
 }
 
-#tape1{
-
-	padding:40px 40px 40px 40px;
-	width: 100%;
-	height: 600px;
+#row1{
+	padding-top: 40px;
+	width: 70%;
+	height: 400px;
 	float: left;
 	background-color:none;
-}
-
-#tapefirst1{
-	float: left;
-	width: 40%;
-	height: 100%;
-	background-color: rgb(255, 0, 230);
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: column;
-}
-
-#tapefirst1 h2{
-	padding:20px;
-	color: white;
-	font-family: 'Lato', sans-serif;
-	font-size: 50px;
-}
-
-#tapefirst1 p{
-	font-size: 20px;
-	font-family: 'Lato', sans-serif;
-	padding-left: 40px;
-	align-self: flex-start;
-}
-#tapefirst2{
-	float: right;
-	width: 60%;
-	height: 100%;
-	background-blend-mode: darken;
-	display: flex;
-
-
-}
-.img1{
-	width: 900px;
-}
-
-
-#tape2{
-	padding:40px;
-	width: 100%;
-	height: 600px;
-	float: left;
-	background-color: none;
-}
-
-#tapesecond1{
-	float: left;
-	width: 60%;
-	height: 100%;
-	display: flex;
-	background-color: green;
-}
-
-#tapesecond2{
-	float: right;
-	width: 40%;
-	height: 100%;
-	background-color: orange;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: column;
-}
-
-#tapesecond2 h2{
-	padding:20px;
-	color: white;
-	font-size: 50px;
-	font-family: 'Lato', sans-serif;;
-
-}
-
-#tapesecond2 p{
-	font-size: 20px;
-	font-family: 'Lato', sans-serif;
-	padding-left: 20px;
-	align-self: flex-start;
-}
-.img2{
-	width: 900px;
-}
-
-#tape3{
-	padding:40px;
-	width: 100%;
-	height: 600px;
-	float: left;
-	background-color:none;
-}
-
-#tapefourth1{
-	float: left;
-	width: 40%;
-	height: 100%;
-	background-color: rgb(0, 178, 255);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: column;
-}
-
-#tapefourth1 h2{
-	padding: 40px;
-	color: white;
-	font-family: 'Lato', sans-serif;
-	font-size: 50px;
-}
-
-#tapefourth1 p{
-	font-size: 20px;
-	font-family: 'Lato', sans-serif;
-	padding-left: 40px;
-	align-self: flex-start;
-}
-#tapefourth2{
-	float: right;
-	width: 60%;
-	height: 100%;
-	background-blend-mode: darken;
-	display: flex;
-
-
-}
-.img3{
-	width: 900px;
-}
-
-
-
-.main_feature_cls{
-	margin-top: 10px;
-	margin-left: 25px;
-	margin-bottom: 15px;
-	margin-right: 20px;
-}
-
-.main_feature_cls h1{
-	font-family: 'Fjalla One', sans-serif;
-}
-.main_feature_cls ul{
-	font-family: 'Cabin', sans-serif;
-	padding-bottom: 20px;
-
 	
 }
-/*_-----------------------------------------------------------------------------------------header*/
+
+
+#col1{
+	padding-top: 40px;
+	width: 30%;
+	height: 800px;
+	float: right;
+	background-color: red;
+}
+
+#row2{
+	float: left;
+	width: 70%;
+	height: 700px;
+	background-color: blue;
+
+}
+
+.card{
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px; 
+	border:2px solid;
+	width: 100%;
+	
+	align-items: center;
+}
+
+.card img{
+	width: 100%;
+}
+.card h4{
+	align-self: center;
+	padding: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+
+}
+.card p{
+	align-self: center;
+	padding: 5px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+/*_______________________________________________________________________________________WIDGETS*/
+
+.widget *{
+	margin: 30px;
+
+
+}
+.widget h3{
+	border-bottom: 1px solid;
+	margin-bottom: 15px;
+}
+.widget p{
+	margin-top: 15px;}
+.w1{
+	border:2px solid;
+}
+.w2{
+	border:2px solid;
+}
+.w3{
+	border:2px solid;
+}
+
+
+
+/*----------------------------------------------------------------------------------------------------HEADER SETTINGS*/
 .header_menu{
-	background-color: rgb(25,25,25);
+	background-color:rgb(25,25,25);
 	width: 100%;
 	height: 110px;	
 	display: flex;
@@ -217,12 +138,13 @@ body{
 	display: inline-block;
 	
 }
+
 .button{
 	padding: 10px 20px 10px 20px;
 	border: none;
   	background-color: #4d4d4d;
   	color: white;
-					
+	
 	
   	text-align: center;
   	text-decoration: none;
@@ -235,13 +157,16 @@ body{
 	background-color: #bfbfbf;
 }
 
-.vm{
-	background-color: rgb(38, 0, 255);
+
+#demo5{
+	color: red;
 }
 
-#demo1{
-	color:red; 
-}
+
+
+
+
+
 
 
 /*----------------------------------------------------------------------------------------------------FOOTER SETTINGS*/
@@ -303,6 +228,12 @@ body{
 
 
 
+
+
+
+
+
+
 /*----------------------------------------------------------------------------------------------------MEDIA SCREENS*/
 
 @media screen and (max-width:1500px){
@@ -310,10 +241,10 @@ body{
 	#container{
 	width: 100%;
 }
-#left-column{
+#Row1{
 	width: 72%;	
 }
-#right-column{
+#Row2{
 	width: 28%;
 }
 }
@@ -323,10 +254,10 @@ body{
 	#container{
 	width: 100%;
 }
-#left-column{
+#Row1{
 	width: 100%;	
 }
-#right-column{
+#Row2{
 	width: 100%;	 
 }
 .display_inblock li{
@@ -378,9 +309,6 @@ body{
 .links{
 	padding: 0px;
 }
-.widget *{
-	margin: 20px ;
-}
 }
 
 
@@ -413,5 +341,5 @@ body{
 	
 }
 
-
+}
 
